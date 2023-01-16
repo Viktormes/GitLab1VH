@@ -1,0 +1,65 @@
+Förberedelse: git config --global init.defaultBranch main
+
+1. mkdir GitLab1
+	git init
+
+2. New-Item README.md
+	Notepad ./README.md 
+	git add . 
+
+
+3. git commit -m "Initial commit"
+
+4. git switch -c feature1
+
+5. Notepad ./README.md 
+	git add . 
+	git commit -m "Add dog and changed moose to mouse"
+
+6. git switch main
+	Notepad ./README.md	
+	git add .	
+	git commit -m "Change moose to mahmut"
+
+7.  git merge feature1 
+	Notepad ./README.md	
+	git merge
+	git add .
+	git commit -m "Merge branch 'feature1'"
+
+8. git tag extinct
+
+
+9. git reset --hard 3833
+
+10. git branch feature2
+
+11. Notepad ./README.md 
+	git add .
+	git commit -m "Change to uppercase" 
+
+12. git switch feature2
+	New-Item fix1.txt
+	git add .
+	git commit -m "Add fix1.txt"
+	
+	New-Item fix2.txt
+	git add .
+	git commit -m "Add fix2.txt"
+
+13. git switch main
+
+
+14. git cherry-pick 392f
+
+
+15. Notepad fix2.txt
+	git add . 
+	git commit -m "Add fix2.txt"
+
+16. git remote add origin https://github.com/Viktormes/GitLab1VH.git
+	git branch -M main
+	git push -u origin main
+
+
+
