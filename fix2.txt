@@ -81,4 +81,12 @@ Förberedelse: git config --global init.defaultBranch main
 
 20. git switch -c feature3
 	Notepad fix2.txt
-	
+	git commit -m "Add the rest of the git commands"
+	git switch main
+	git merge feature3
+	git reset --hard
+	git switch feature3
+	git add fix2.txt
+	git switch main
+	git merge feature3	
+	git pull --no-rebase
