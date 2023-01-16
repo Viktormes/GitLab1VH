@@ -90,3 +90,4 @@ Förberedelse: git config --global init.defaultBranch main
 	git switch main
 	git merge feature3	
 	git pull --no-rebase
+	git push
