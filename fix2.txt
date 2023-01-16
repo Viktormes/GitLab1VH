@@ -62,4 +62,23 @@ Förberedelse: git config --global init.defaultBranch main
 	git push -u origin main
 
 
+17. New-Item .gitignore
+	Notepad .gitignore
+	git add .
 
+	git commit -m "Add .gitignore and making it work as intended"
+	git push
+
+18. git tag -a v1.0 -m "Version 1.0"
+	git add .
+
+
+19.	git rebase -i HEAD~3
+ pick db778ee Add fix2.txt
+ squash 10aa428 Update fix2.txt
+ pick e369e45 Add .gitignore and making it work as intended
+
+
+20. git switch -c feature3
+	Notepad fix2.txt
+	
